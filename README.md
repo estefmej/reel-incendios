@@ -16,7 +16,21 @@ se convierte en un reel vertical de 46 segundos (1080×1920), narrado con mi voz
 | `salidas/reel.srt` | Subtítulos palabra por palabra, generados con Whisper |
 | `salidas/portada.png` | Un cuadro del reel para usar como miniatura |
 | `salidas/creditos.txt` | Autora, fuentes de datos, música y aviso de voz con IA |
-| `salidas/guion.json` | El guion revisado (7 escenas): frase, cifra y etiqueta |
+| `salidas/guion.json` | El guion revisado (7 escenas): frase, cifra, etiqueta y, en `revisado_a_mano`, qué corregí |
+
+## Qué corregí del guion
+
+Revisé el borrador contra la fuente y cambié esto. Cada corrección también queda anotada en `revisado_a_mano`
+dentro de `salidas/guion.json`.
+
+| Cambio | Motivo |
+|---|---|
+| **Salió Lima (+114 %)** | Lima no aparecía en ninguna de las capturas de la fuente, lo que indicaba que esa cifra venía de una base chica. |
+| **Salió Curahuasi (1,115.5 ha quemadas)** | Era un incendio con muy poca agua cerca (2.1 ha), y hacía falta espacio para los datos de la tabla. |
+| **Entró Sicuani, Cusco (239 focos en nueve días)** | Es el incendio más grande de la tabla, tanto por huella como por número de focos. |
+| **Entró Huayllay, Pasco (a 1.1 km del agua)** | Es el incendio más cercano al agua y tiene el 100 % de sus focos en zonas de agua. |
+| **Se amplió la escena de Puno** | Ahora también dice que tiene seis de los veinte incendios más grandes (Juliaca, Juli, Cabanillas, Puno, Macari y Calapuja), contados en la tabla. |
+| **Se acortaron las escenas 1 y 2** | Para que todo el reel entrara en 60 segundos. |
 
 ## Estructura
 
@@ -102,7 +116,8 @@ por escrito. En la primera corrida, `hacer_reels.py` genera la escena 1 con su g
 ## Créditos
 
 - **Autora:** Estefanny.
-- **Datos:** NASA FIRMS, INPE, Sentinel-2.
+- **Datos:** NASA FIRMS (focos de calor VIIRS), INPE (Queimadas), Sentinel-2 y ESA WorldCover (agua permanente y
+  humedales, que definen las zonas que producen agua).
 - **Voz:** generada con IA (Qwen3-TTS) a partir de la voz de la autora. El video lo indica en pantalla.
 - **Música:** generada con código (`musica_tension.py`), sin derechos de autor.
 - **Código base:** `reel.py` viene de [d2cml-ai/Data-Science-Python](https://github.com/d2cml-ai/Data-Science-Python),

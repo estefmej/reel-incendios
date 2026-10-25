@@ -1,6 +1,6 @@
 # El fuego y el agua · posts para publicar el reel
 
-Datos al 22 de octubre de 2026. Fuentes: NASA FIRMS, INPE, Sentinel-2.
+Datos al 22 de octubre de 2026. Fuentes: NASA FIRMS, INPE, Sentinel-2, ESA WorldCover.
 
 ## Instagram
 
@@ -14,7 +14,7 @@ Datos al 22 de octubre de 2026. Fuentes: NASA FIRMS, INPE, Sentinel-2.
 
 Mira el tablero completo: enlace en mi perfil.
 
-Fuentes: NASA FIRMS, INPE, Sentinel-2.
+Fuentes: NASA FIRMS, INPE, Sentinel-2, ESA WorldCover.
 
 #IncendiosPerú #Agua #DatosAbiertos #Puno #Cusco #Pasco
 
@@ -24,7 +24,7 @@ Voz generada con IA
 
 El 24 % de los focos de calor de esta temporada en Perú cayó en zonas que le dan agua al país: cabeceras, lagunas y humedales. Puno lidera con 4,011 focos en esas zonas.
 
-Tablero en mi perfil. Fuentes: NASA FIRMS, INPE, Sentinel-2.
+Tablero en mi perfil. Fuentes: NASA FIRMS, INPE, Sentinel-2, ESA WorldCover.
 
 Voz generada con IA
 
@@ -42,7 +42,7 @@ Analicé los datos satelitales del 1 de julio al 22 de octubre de 2026:
 
 El tablero completo está en el enlace de mi perfil.
 
-Fuentes: NASA FIRMS, INPE, Sentinel-2. Narración con mi voz clonada (Qwen3-TTS) y música generada con código.
+Fuentes: NASA FIRMS, INPE, Sentinel-2, ESA WorldCover. Narración con mi voz clonada (Qwen3-TTS) y música generada con código.
 
 #DataScience #DatosAbiertos #Perú #Incendios #Agua
 

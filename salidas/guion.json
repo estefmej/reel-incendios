@@ -2,16 +2,22 @@
   "titulo": "El fuego y el agua",
   "fuente": "NASA FIRMS, INPE, Sentinel-2, ESA WorldCover",
   "corte": "22/10/2026",
+  "revisado_a_mano": [
+    "Salió la escena de Lima (+114 %): Lima no aparecía en ninguna de las capturas de la fuente, lo que indicaba que esa cifra venía de una base chica.",
+    "Salió la escena de Curahuasi (1,115.5 ha quemadas): era un incendio con muy poca agua cerca (2.1 ha), y hacía falta espacio para los datos de la tabla."
+  ],
   "escenas": [
     {
       "frase": "El veinticuatro por ciento de los focos de calor de esta temporada cayó en las zonas que le dan agua al Perú: cabeceras, lagunas y humedales.",
       "cifra": "24 %",
-      "etiqueta": "Focos en zonas que producen agua"
+      "etiqueta": "Focos en zonas que producen agua",
+      "revisado_a_mano": "Acortada para que todo el reel entrara en 60 segundos."
     },
     {
       "frase": "Del primero de julio al veintidós de octubre hubo más de ciento treinta y cinco mil focos. Ojo: un foco no siempre es un incendio.",
       "cifra": "135,171",
-      "etiqueta": "Focos de calor, 1 jul – 22 oct 2026"
+      "etiqueta": "Focos de calor, 1 jul – 22 oct 2026",
+      "revisado_a_mano": "Acortada para que todo el reel entrara en 60 segundos."
     },
     {
       "frase": "Medida con un mismo satélite, es la segunda proporción más alta desde dos mil doce.",
@@ -21,17 +27,20 @@
     {
       "frase": "Puno lidera con cuatro mil once focos en zonas de agua, y tiene seis de los veinte incendios más grandes del último mes en esas zonas.",
       "cifra": "4,011",
-      "etiqueta": "Focos en zonas de agua en Puno"
+      "etiqueta": "Focos en zonas de agua en Puno",
+      "revisado_a_mano": "Ampliada: ahora también dice que Puno tiene seis de los veinte incendios más grandes (Juliaca, Juli, Cabanillas, Puno, Macari y Calapuja), contados en la tabla."
     },
     {
       "frase": "El más grande fue en Sicuani, Cusco: doscientos treinta y nueve focos en nueve días.",
       "cifra": "239",
-      "etiqueta": "Focos del incendio de Sicuani, 29 set – 7 oct"
+      "etiqueta": "Focos del incendio de Sicuani, 29 set – 7 oct",
+      "revisado_a_mano": "Escena nueva: Sicuani es el incendio más grande de la tabla, tanto por huella como por número de focos."
     },
     {
       "frase": "Y en Huayllay, Pasco, con todos sus focos en zonas de agua, el fuego quedó a un kilómetro de una laguna o humedal.",
       "cifra": "1.1 km",
-      "etiqueta": "Distancia al agua, incendio de Huayllay"
+      "etiqueta": "Distancia al agua, incendio de Huayllay",
+      "revisado_a_mano": "Escena nueva: Huayllay es el incendio más cercano al agua (1.1 km) y tiene el 100 % de sus focos en zonas de agua."
     },
     {
       "frase": "Mira el tablero completo: enlace en mi perfil.",

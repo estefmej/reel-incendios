@@ -24,7 +24,7 @@ import reel  # noqa: E402
 from musica_tension import SR as SR_MUSICA, generar  # noqa: E402
 
 AUTOR = "Estefanny"
-FUENTE = "NASA FIRMS, INPE, Sentinel-2"
+FUENTE = "NASA FIRMS, INPE, Sentinel-2, ESA WorldCover"
 VOZ = AQUI / "mi_voz.m4a"
 MUESTRA = AQUI / "muestra_escena1.wav"   # escena 1 con la entonación elegida; no se sube (privacidad)
 SEMILLA = 1234
@@ -49,8 +49,11 @@ def base(titulo, fuente_datos, autor, aviso=True):
         d.rounded_rectangle((reel.MARGEN, 315, x1, 365), radius=25, outline=reel.SUAVE, width=2)
         d.text((reel.MARGEN + 18, 340), texto, font=f, fill=reel.SUAVE, anchor="lm")
     pie = reel._fuente("PublicSans", 32, 500)
-    for i, linea in enumerate(reel._envolver(d, f"{autor} · Fuente: {fuente_datos}", pie,
-                                             reel.ANCHO - 2 * reel.MARGEN)):
+    ancho = reel.ANCHO - 2 * reel.MARGEN
+    lineas = [f"{autor} · Fuente: {fuente_datos}"]
+    if d.textlength(lineas[0], font=pie) > ancho:   # si no entra, se corta después de «Fuente:», no en medio de una fuente
+        lineas = [f"{autor} · Fuente:"] + reel._envolver(d, fuente_datos, pie, ancho)
+    for i, linea in enumerate(lineas):
         d.text((reel.MARGEN, PIE_Y + i * 44), linea, font=pie, fill=reel.SUAVE)
     return img
 

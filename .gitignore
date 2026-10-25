@@ -1,0 +1,32 @@
+# Entorno y temporales de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Mi voz: la grabación original no se sube (privacidad)
+mi_voz.m4a
+Audio.mp4
+
+# Cualquier audio suelto: voz original, voz clonada o mezclas intermedias
+*.wav
+*.m4a
+*.mp3
+*.opus
+*.ogg
+*.flac
+
+# Reel de solo música: queda en mi computadora, no se sube
+salidas/reel_solo_musica.mp4
+
+# Intermedios: video solo con voz clonada, cuadros de prueba y registros
+salidas/trabajo/
+*.log
+log.txt
+
+# Clon del curso (es otro repositorio, con su propio .git)
+Data-Science-Python/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

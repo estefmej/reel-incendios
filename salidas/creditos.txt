@@ -1,0 +1,4 @@
+Autora: Estefanny
+Fuente de los datos: NASA FIRMS, INPE, Sentinel-2
+Música: generada con código (musica_tension.py), sin derechos de autor
+Voz generada con IA (Qwen3-TTS) a partir de la voz de la autora.
